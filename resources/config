@@ -1,0 +1,7 @@
+{
+  "apps": [
+    "firefox",
+    "code"
+  ],
+  "button_height": 65
+}
