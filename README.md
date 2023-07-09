@@ -39,6 +39,7 @@ for_window [app_id="dev.peruki.pdock"] {
   floating_minimum_size 1 x 1 
   border none
   window_type _NET_WM_WINDOW_TYPE_DOCK
+  move position 0px 380px
 }
 
 exec_always $pdock
