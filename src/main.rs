@@ -1,4 +1,4 @@
-//! pdock is a simple dock written in Rust using GTK.
+//! pdock is a simple dock application written in Rust using GTK4.
 
 use gtk::gdk::Display;
 use gtk::glib;
