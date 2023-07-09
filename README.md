@@ -2,7 +2,6 @@
 
 A simple dock application for both X11 and Wayland written in Rust using GTK4. 
 
-
 ![Preview of pdock](https://github.com/TadaTeruki/pdock/assets/69315285/fd5f6eae-fa64-4528-b0f6-f10008684413)
 
 ## Notice
@@ -13,7 +12,7 @@ For now, this application is just a toy project for myself and I don't have any 
 
 At first, this requires a development environment for Rust to build. Please refer to the [official document](https://www.rust-lang.org/tools/install) for installation.
 
-1. run `install.sh`
+### 1.run `install.sh`
 
 ```
 $ sh install.sh
@@ -21,9 +20,9 @@ $ sh install.sh
 
 Be cafeful that this script will install the application to `/usr/local/bin`. If you want to install to another directory, please edit the script.
 
-2. configure your desktop environment
+### 2.configure your desktop environment to execute pdock
 
-Because of using GTK4, this application cannot set its position and size by itself. So you need to configure your desktop environment to set the position and size of the dock.
+This application doesn't set its position and size by itself because of using GTK4. So you need to configure your desktop environment to set the initial position and size of the dock and execute.
 
 This is an example for [sway](https://github.com/swaywm/sway):
 
@@ -45,7 +44,7 @@ for_window [app_id="dev.peruki.pdock"] {
 exec_always $pdock
 ```
 
-3. edit config file
+### 3.edit config file
 
 After running `install.sh` for the first time, the config file will be created at `~/.config/pdock/config`. You can edit this file to configure the dock.
 
