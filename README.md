@@ -1,6 +1,9 @@
 # pdock
 
-A simple dock application written in Rust using GTK4. 
+A simple dock application for both X11 and Wayland written in Rust using GTK4. 
+
+
+![Preview of pdock](https://github.com/TadaTeruki/pdock/assets/69315285/fd5f6eae-fa64-4528-b0f6-f10008684413)
 
 ## Notice
 
